@@ -1,0 +1,2543 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- 
+
+██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
+██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
+╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
+░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
+░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
+░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
+░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
+░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
+░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
+██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
+╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
+░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░
+What are you doing here?! you sneaky developer...
+-->
+<!-- , user-scalable=no -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000">
+    <meta name="description" content="Vinod Jangid | Portfolio, Visit and know about me & my projects/designs. I value simple content structure, clean design patterns, and thoughtful interactions." >
+    <meta name="keywords" content="vinod jangid, vinod jangid portfolio,Vinod Jangid Portfolio, vinodjangid, vinod jangid github" >
+    <meta name="author" content="Vinod Jangid" >
+<!-- 
+    <meta property="og:title" content="" >
+    <meta property="og:image" content="" >
+    <meta property="og:url" content="" >
+    <meta property="og:site_name" content="" >
+    <meta property="og:description" content="" >
+    <meta name="twitter:title" content="" >
+    <meta name="twitter:image" content="" >
+    <meta name="twitter:url" content="" >
+    <meta name="twitter:card" content="" > -->
+
+    <title>Vinod Jangid | Portfolio</title>
+    <style type="text/css">
+        /* 
+██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
+██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
+╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
+░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
+░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
+░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
+░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
+░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
+░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
+██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
+╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
+░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::selection {
+    background-color: transparent;
+}
+
+*::-moz-selection {
+    background: transparent;
+}
+ 
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
+}
+:root{
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    cursor:default;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-dark-mode:#11111b;
+    --color-light-mode:#ece7e1;
+    --color-ddd-color: #ddd;
+    --color-gray: #c4c4c4;
+    --color-purple: #8000ff;
+    --color-light-purple: #cf59e6;
+    --color-light-blue: #6bc5f8;
+    --color-navbarBorder-dark:#20222e10;
+    --color-shadowDark:rgba(0, 0, 0, 0.137);
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0a10;
+}
+::-webkit-scrollbar-thumb{
+   background-color: #8000ff;
+   /* border-radius: 20px; */
+
+}
+body{
+    background-color: var(--color-dark-mode);
+    overflow-x: hidden;
+    cursor: none;
+    cursor: url('cursorr.png');
+    cursor: url('cursorr.png'),
+    url('cursorr.png');
+    cursor: url('cursorr.png'),
+    move;
+        cursor: url('cursorr.png')10 12;
+}
+
+
+/* for light mode */
+.light-mode{
+    --color-dark-mode:#ece7e1;
+    --color-black: #fff;
+    --color-white: #000;
+    --color-ddd-color: rgb(31, 31, 31);
+    --color-navbarBorder-dark:#c5cae1;
+}
+.setting-container{
+    width: 60px;
+    height: 50px;
+    margin-left:50px;
+    display: flex;
+    align-items: center;
+    transform-origin: left;
+    transition-duration: .5s;
+    gap: 30px;
+    padding: 20px 0px;
+   
+}
+#labelforsetting{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+        padding: 0px 20px;
+        background-image: url(src/svg/settings-svgrepo-com.svg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+        mix-blend-mode: difference;
+        transition-duration: .5s;
+}
+
+/* .fas{
+    
+    color: var(--color-white);
+    font-size: 3rem;
+    transition-duration: .4s;
+} */
+.settingactivate{
+    transform-origin: left;
+    width: 200px;
+    transition-duration: .5s;
+
+}
+
+.visualmodetogglebuttoncontainer{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translate(-50px)scale(0);
+    transition-duration: .3s;
+}
+.visualmodeshow{
+    transition-duration: .3s;
+    transform: translate(0px)scale(1);
+}
+#switchforsetting{
+    display: none;
+}
+#switchforsetting:checked+#labelforsetting { 
+    transform: rotate(180deg);
+    transition-duration: .5s;
+
+}
+
+#labelforvisualmode {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(src/png/crescent-moon\ \(1\).png);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+    transition-duration: .5s;
+}
+
+#switchforvisualmode{
+    display: none;
+}
+#switchforvisualmode:checked+#labelforvisualmode { 
+    transform: rotate(360deg);
+    transition-duration: .5s;
+    background-image: url(src/png/sun.png);
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/* for sound */
+.soundtogglebuttoncontainer{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-130px)scale(0);
+    transition-duration: .3s;
+}
+.soundmodeshow{
+    transition-delay: .1s;
+    transition-duration: .5s;
+    display: inline-block;
+    transform:translate(0px)scale(1);
+
+}
+#labelforsound {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-image: url(src/svg/Mute_Icon.svg);
+    background-size:60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+}
+.invertsoundlabel{
+   filter: invert(1);
+}
+#switchforsound{
+    display: none;
+}
+
+#switchforsound:checked+#labelforsound { 
+    transition-duration: .5s;
+    background-image: url(src/svg/Speaker_Icon.svg);
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center ;
+   
+}
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#preloader{
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    background-image: url(src/svg/Pulse-0.4s-200px.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    filter: invert(1);
+
+}
+noscript{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-dark-mode);
+    font-size: 4rem;
+    color: white;
+    z-index:999999;
+}
+.fakenavbar{
+    height: 0px;
+    width: 0%;
+    background-color: transparent;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.079);
+    backdrop-filter: blur(50px);
+    height: 80px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 999;
+    border: 0.2rem solid var(--color-navbarBorder-dark);
+    border-radius: 50px;
+    overflow: hidden;
+}
+.navbar-tabs{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+}
+.navbar-tabs-ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 80px;
+    color: var(--color-white);
+}
+.navbar-tabs-ul li{
+    width: fit-content;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    position: relative;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+    font-family: fira code;
+}
+
+.navbar-tabs-ul li:hover:before{
+    content: "";
+    background-color: var(--color-white);
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    left: -20px;
+    z-index: -1;
+}
+.navbar-tabs-ul a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: 100;
+}
+.logo{
+    position: relative;
+    width: 10%;
+    height: 100%;
+    transition-duration: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+.hey{
+    color: white;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 300;
+    background-color: #20222e;
+    padding: 5px 10px;
+    border-radius: 20px;
+    left: 120px;
+    bottom: 80px;
+    opacity: 0;
+}
+.popup{
+   animation: pop-up 3s linear;
+}
+@keyframes pop-up {
+    from{
+        bottom: -50px;
+        left: 50px;
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.logo-top{
+    width: 100%;
+    height:84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: headshake 15s linear infinite;
+    transform-origin: bottom;
+    position: relative;
+}
+@keyframes headshake {
+    0%{
+        transform: rotate(-8deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(8deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-8deg);
+    }
+    
+}
+
+.logo-top img{
+    height: 100%;
+    z-index: 2;
+    
+}
+.face{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    z-index: 1;
+}
+.eye{
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   overflow: hidden;
+
+
+}
+.pupil{
+    width:4px;
+    height:4px;
+    background: rgb(36, 16, 16);
+    border-radius: 50%;
+}
+/* .eye:after { 
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: .7px;
+    top: 0;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
+  } */
+.logo-bottom{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-bottom img{
+    height: 100%;
+}
+.logo:hover{
+    transform: translateY(200px);
+    transition-duration: 1s;
+}
+
+
+.activeThistab{
+    color: var(--color-white);
+}
+.activeThistab:before{
+    content: "";
+    background-color: var(--color-white);
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: -20px;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+/* navbar code ends here */
+
+/* landing page code starts from here */
+.main{
+    width: 100%;
+    height: fit-content;
+    
+}
+.landing-page-container{
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 300px;
+}
+#hello-friend{
+    font-size: 3.5rem;
+    font-weight: 600;
+    width:fit-content;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    color: var(--color-white);
+    font-family: fira code;
+}
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  
+  /* #name:hover{
+    -webkit-animation: vibrate-1 0.3s linear both;
+    animation: vibrate-1 0.3s linear both;
+}
+   */
+#name{
+    font-size: 8rem;
+    font-weight:700;
+    width:fit-content;
+    display: flex;
+    align-items: flex-start;
+    background: -webkit-linear-gradient(135deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+    background: linear-gradient(-45deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
+    -webkit-animation: gradient 3s ease infinite;
+    animation: gradient 3s ease infinite;
+
+}
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#work{
+    font-size: 8rem;
+    font-weight:700;
+    width:fit-content;
+    display: flex;
+    align-items: flex-start;
+    color: var(--color-white);
+    flex-wrap: wrap;
+    
+}
+#work div{
+    display: flex;
+	margin: 0px 12px 0px 0px;
+}
+.jello:hover{
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color:  #03e6ff;
+    -webkit-animation: jello-vertical 0.9s both;
+	        animation: jello-vertical 0.9s both;
+}
+
+ @-webkit-keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-vertical {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(0.85, 1.15, 1);
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+#info-para{
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 30px;
+    color: var(--color-ddd-color);
+    line-height: 20px;
+}
+.contact-btn-div{
+    width: 100%;
+    padding-top: 50px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.letsTalkBtn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: all .3s;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+  }
+  
+  .letsTalkBtn-text {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(230, 230, 230, 0.466);
+    border: none;
+    border-radius: 7px;
+    backdrop-filter: blur(5px);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+  }
+  
+  .letsTalkBtn-BG {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(150deg, #71cbff, #8000ff);
+    z-index: -1;
+    left: 6px;
+    top: 6px;
+    border-radius: 7px;
+    pointer-events: none;
+    transition: all .3s;
+  }
+  
+  .letsTalkBtn:hover {
+    transform: translateY(-2px) translateX(-2px);
+  }
+  
+  .letsTalkBtn:hover .letsTalkBtn-BG {
+    transform: translateY(2px) translateX(2px);
+  }
+  
+  .letsTalkBtn:active {
+    transform: translateY(7px) translateX(7px);
+  }
+  
+  .letsTalkBtn:active .letsTalkBtn-BG {
+    transform: translateY(-7px) translateX(-7px);
+  }
+.resume-btn {
+    z-index:9998;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom:10px;
+    left:10px;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background: linear-gradient(
+    82.3deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 17px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .resume-btn:hover {
+    width: 130px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .resume-btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+  /* hover effect button's text */
+  .resume-btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .resume-btn:active {
+    transform: translate(2px ,2px);
+  }
+/* landing page code ends here */
+
+/* about section starts from here */
+.about-section-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.about-heading-article{
+    font-size:3rem;
+    font-family: fira code;
+    font-weight: 500;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutHeadingP{
+    width: 300px;
+    height: 1px;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+}
+
+.info-dp-section{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    
+}
+.about-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.about-info p{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--color-white);
+}
+.dp{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    position: relative;
+    transition-duration: .5s;
+}
+.dp img{
+    width: 300px;
+}
+.dp::before{
+    content: "";
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -2;
+    box-shadow: 2px 2px 0px inset #8000ff,
+                -2px -2px 0px inset transparent;
+                transition-duration: .5s;
+
+}
+.dp::after{
+    content: "";
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: -2;
+    box-shadow: 2px 2px 0px inset transparent,
+                -2px -2px 0px inset #8000ff;
+                transition-duration: .5s;
+
+}
+/* hover effect on dp */
+.dp:hover::after{
+    transform: translate(20px,20px);
+    transition-duration: .5s;
+}
+.dp:hover::before{
+    transform: translate(-20px,-20px);
+    transition-duration: .5s;
+}
+/* about section ends
+ */
+ /* skills section starts */
+.skills-section-container{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-section{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.skills-heading-article{
+    font-size:3rem;
+    font-family: fira code;
+    font-weight: 500;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skillsHeadingP{
+    width: 300px;
+    height: 1px;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+
+}
+
+.language-speak{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+}
+.language-speak article{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: fira code;
+    color: var(--color-white);
+}
+.frontend-dev-section{
+    width: 100%;
+    margin-top: 50px;
+}
+.frontend-dev-heading{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+    height: 100px;
+    letter-spacing: 5px;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.languages-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.language-name{
+    background-color: rgba(255, 255, 255, 0.005);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 45%;
+    padding: 30px;
+    transform-style: preserve-3d;
+    box-shadow: 0px 10px 20px var(--color-shadowDark);
+    
+}
+
+.language-name::before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientforlanguage 5s ease infinite;
+    top: 0;
+    transition-duration: .5s;
+}
+.language-name:hover::before{
+    width: 100%;
+    transition-duration: .5s;
+}
+@keyframes gradientforlanguage {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.language-name article{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: fira code;
+    color: var(--color-white);
+    transform: translateZ(50px);
+}
+.language-name p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(101, 100, 100);
+    text-align: center;
+}
+
+/* skills section ends */
+/* ######################################################## */
+/* projects section starts */
+.projects-section-container{
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.projects-section-div{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.projects-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.projects-heading-article{
+    font-size:3rem;
+    font-family: fira code;
+    font-weight: 500;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.projectsHeadingP{
+    width: 300px;
+    height: 1px;
+    background-image: -webkit-gradient(linear,left top,right top,from(#b0f3f1),to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left,#b0f3f1,#ffcfdf);
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+}
+.project-boxes-div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.project-boxes-div a{
+    text-decoration: none;
+    width: 100%;
+}
+.project-box{
+    background-color: rgba(255, 255, 255, 0.005);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition-duration: .3s;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+    position: relative;
+    box-shadow: 0px 10px 20px var(--color-shadowDark);
+}
+.language-gradient-class{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.113);
+}
+.project-box:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientforlanguage 5s ease infinite;
+    top: 0;
+    left: 0;
+}
+.info-div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 40px;
+}
+.faviconforProject{
+    background-color: white;
+    width: 20px;
+    border-radius: 50%;
+}
+.faviconforProjectAquaregia{
+    width: 20px;
+}
+.image-div{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+.image-div img{
+    height: 100%;
+    /* border-top-left-radius:10px ; */
+   
+}
+.ProjectHeading{
+    color: var(--color-white);
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+.ProjectDescription{
+    color: gray;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+/* Project visit button */
+.cta {
+    position: relative;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    /* background: #b1dae7; */
+    background-color: var(--color-navbarBorder-dark);
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    /* font-family: "Ubuntu", sans-serif; */
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    /* color: #234567; */
+    color: var(--color-light-blue);
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    /* stroke: #234567; */
+    stroke: var(--color-light-blue);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    /* background: #b1dae7; */
+   }
+   .cta:hover span{
+    color:white;
+   }
+   .cta:hover svg{
+    stroke:white;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }
+/* Project visit button */
+.project-box:hover{
+    transform: translate(-5px,-10px);
+    transition-duration: .3s;
+}
+
+/* projects ends */
+
+
+
+
+/* for light mode  */
+.heading-article-light{
+    background-image: -webkit-gradient(linear,left top,right top,from(#0f7878),to(#f09bb9));
+    background-image: -webkit-linear-gradient(left,#0f7878,#f09bb9);
+    background-image: linear-gradient(90deg,#0f7878,#f09bb9);
+}
+
+#backtotopbutton{
+    
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+    width:3rem;
+    height:15rem;
+    z-index: 101;
+    text-align: center;
+    transition: all .4s;
+    background-color: transparent;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+    cursor: url('click.png')10 12;
+    display: none;
+}
+#backtotopbutton article{
+
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: 400;
+    /* width: 200px; */
+    /* transform: rotate(90deg); */
+     
+    writing-mode:vertical-rl;
+     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+     mix-blend-mode: difference;
+}
+
+
+#backtotopbutton:hover{
+    transform: translate(0px,-20px);
+    text-decoration: line-through var(--color-white);
+}
+/* footer starts */
+.footercontainer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+.two-words{
+    color: rgb(179, 179, 179);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.two-words article{
+    font-size: 3rem;
+    font-family: fira code;
+}
+.social-media-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.social-media-container a{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 222, 222);
+    transition-duration: .3s;
+    cursor: url('click.png');
+    cursor: url('click.png'),
+    url('click.png');
+    cursor: url('click.png'),
+    move;
+        cursor: url('click.png')10 12;
+        position: relative;
+        box-shadow: 0px 0px 0px #8000ff inset;
+        transition-duration: .3s;
+}
+.getintouch-heading{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.getintouch-heading article{
+    font-size: 2rem;
+    background: -webkit-linear-gradient(135deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+    background: linear-gradient(-45deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-family: fira code;
+}
+.logos{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.SocialHandle{
+    fill: white;
+    width: 60%;
+}
+#GmailLogo{
+    height: 70%;
+    fill: white;
+}
+.social-media-container a:hover{
+    box-shadow: 0px 0px 50px 100px #8000ff inset;
+    transition-duration: 1s;
+
+border: none;
+}
+.social-media-container a::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    background-color: #8000ff;
+    background-color: transparent;
+    transition-duration: .3s;
+    z-index: -1;
+}
+.social-media-container a:hover::before{
+    transform: scale(1);
+    transition-duration: .3s;
+}
+.footer-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+.footer-bottom article{
+    color: rgb(176, 176, 176);
+    font-size: 1.5rem;
+    font-family: fira code;
+}
+.fa-copyright{
+    font-size: 1.5rem;
+    color: rgb(176, 176, 176);
+}
+.mobiletogglemenu{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+.tonechange{
+    color: black;
+}
+
+/* responsive code below*/
+@media screen and (max-width:1920px) {
+    html {
+        font-size: 60%;
+    }
+  }
+  @media screen and (max-width:1400px) {
+    html {
+        font-size: 60%;
+    }
+    .text-content{
+        padding-left: 200px;
+    }
+   
+  }
+  @media screen and (max-width:1300px) {
+   
+  }
+  @media screen and (max-width:1200px) {
+    html {
+        font-size: 60%;
+    }
+    .text-content{
+        padding-left: 100px;
+    }
+    .about-section{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo:hover{
+        transform: translateY(200px);
+        transition-duration: 1s;
+    }
+    .skills-section{
+        width: 80%;
+    }
+    .projects-section-div{
+        width: 80%;
+    }
+    
+  }
+  @media screen and (max-width:1150px) {
+    html {
+        font-size: 60%;
+    }
+   
+    
+  }
+  @media screen and (max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+    .navbar-tabs-ul{
+    display: none;
+    }
+    .stopscrolling{
+        overflow: hidden;
+    }
+  .hamburger{
+    /* display: block; */
+    position: fixed;
+    top: 0px;
+    /* right: 0; */
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+    background-color:transparent;
+}
+.hamburgerbase{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+#hamburger-button{
+    font-size: 3rem;
+    font-weight: 800;
+    width: 4.5rem;
+    height: 3.5rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#burger-bar1{
+    width: 60%;
+    height:3px;
+    border-radius: 0px;
+    transition-duration: .3s;
+}
+#burger-bar2{
+    width: 100%;
+    height:3px;
+    border-radius: 0px;
+    transition-duration: .3s;
+
+}
+#burger-bar3
+{
+    width: 60%;
+    height:3px;
+    border-radius: 0px;
+    transition-duration: .3s;
+
+}
+.burger-bar{
+    background-color: var(--color-white);
+}
+
+.hamburger-animation1{
+    transform: rotate(45deg) scaleX(1.7);
+    transition-duration: .3s;
+    transform-origin: left;
+    background-color: var(--color-white);
+
+} 
+.hamburger-animation2{
+   transform: scaleX(0);
+    background-color: var(--color-white);
+
+    
+}
+.hamburger-animation3{
+    transform: rotateZ(-45deg) scaleX(1.7);
+    transform-origin: left;
+    transition-duration: .3s;
+    background-color: var(--color-white);
+
+
+}
+.mobiletogglemenu{
+  background-color:transparent;
+  z-index: 9990;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+  cursor: pointer;
+  /* display: none; */
+  display: flex;
+transform: translate(1000px);
+transition-duration: 1.6s;
+ 
+}
+.show-toggle-menu{
+    transform: translate(0);
+    transition-duration: .6s;
+}
+
+
+.emptyarea{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    
+    /* background-color: rgba(2, 2, 2, 0.204); */
+    /* backdrop-filter: blur(5px); */
+    backdrop-filter: blur(5px);
+    /* background-color: red; */
+    /* background-color: blue; */
+    z-index: 9999;
+    opacity: 0;
+    
+}
+.blur-class{
+    opacity: 1;
+   transition-delay: .4s;
+    transition-duration: .2s;
+    z-index: 9999;
+    
+}
+
+.mobile-navbar-tabs-ul{
+    /* animation: dropdownlist .3s linear; */
+    background-color: var(--color-dark-mode);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    box-shadow: -0px 0px 30px rgba(0, 0, 0, 0.176);
+}
+.mobile-navbar-tabs-ul a{
+    text-decoration: none;
+}
+.mobile-navbar-tabs-li{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    font-family: fira code;
+    color: var(--color-white);
+    height: 30px;
+    width: fit-content;
+}
+.info-dp-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+.about-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.dp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.activeThismobiletab{
+    color: var(--color-white);
+    
+}
+.activeThismobiletab:before{
+    content: "";
+    background-color: var(--color-white);
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: -20px;
+    border-radius: 50%;
+
+}
+.projects-section-div{
+    width: 80%;
+}
+.project-box{
+
+    flex-direction: column;
+    height:800px;
+}
+.info-div{
+    width: 100%;
+    height: 50%;
+
+}
+.image-div{
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    padding-left: 80px;
+}
+  }
+  
+  @media screen and (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+    .text-content{
+        padding-left: 0px;
+        width:80%;
+    }
+    #hello-friend{
+        height: 100px;
+        font-size: 3.5rem;
+    }
+    #name,#work{
+        font-size: 5.5rem;
+    }
+    #info-para{
+        width: 100%;
+    }
+    .contact-btn-div{
+        height: 140px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .setting-container {
+        margin-left: 0px;
+    }
+    .dp::before{
+        display: none;
+    }
+    .dp::after{display: none;}
+
+    .logo{
+        width: 18%;
+    }
+    .logo:hover{
+    transform: translateY(200px);
+    transition-duration: 1s;
+}
+ .language-name{
+        width: 100%;
+     } 
+
+.projects-section-div{
+    width: 80%;
+}
+.project-boxes-div{
+    padding: 40px 0;
+}
+  }
+  
+  @media screen and (max-width:500px) {
+    html {
+        font-size: 45%;
+    }
+    .navbar{
+        height: 70px;
+    }
+    #hamburger{
+        margin-right:20px ;
+        height: 150px;
+    }
+    .hamburgerbase{
+        height: 70px;
+    }
+    .two-words article{
+        font-size: 2.5rem;
+    }
+    .hey{
+        left: 70px;
+    }
+    .logo:hover{
+        transform: translateY(200px);
+        transition-duration: 1s;
+    }
+    #hello-friend{
+        font-size: 2.5rem;
+    }
+    .landing-page-container{
+        height: 85vh;
+    }
+    .project-box{
+        height: 550px;
+
+    }
+    .info-div{
+        height: 60%;
+    }
+    .image-div{
+        height: 40%;
+        padding-left: 50px;
+    }
+    .image-div img{
+        border-top-left-radius: 10px;
+    }
+    
+    
+
+  }
+  @media screen and (max-width:430px) {
+    html {
+        font-size: 45%;
+    }
+    .skills-section,.about-section,.projects-section-div{
+        width: 80%;
+    }
+    .info-div{
+        padding: 0 30px;
+    }
+    .two-words article{
+        font-size: 2.2rem;
+    }
+  }
+  
+  @media screen and (max-width:375px) {
+    html {
+        font-size: 42%;
+    }
+    .dp img{
+        width: 200px;
+    }
+    .two-words{
+        height: 50px;
+    }
+    .two-words article{
+        font-size: 2rem;
+    }
+   
+    .footer-bottom article{
+        font-size: 1.3rem;
+    }
+    .logos{
+        gap: 20px;
+    }
+     
+  }
+  @media screen and (max-width:300px) {
+    html {
+        font-size: 42%;
+    }
+    .language-name article{
+        text-align: center;
+
+    }
+    .two-words{
+        align-items: flex-end;
+        height: 50px;
+    }
+    .two-words article{
+        font-size: 1.5rem;
+    }
+   
+    .footer-bottom article{
+        font-size: 1rem;
+    }
+    .social-media-container a{
+        width: 50px;
+        height: 50px;
+    }
+    .logos{
+        gap: 20px;
+    }
+  }
+  
+  /* responsive code above */
+  
+  
+
+    </style>
+    <link rel="icon" type="image/x-icon" href="src/png/favicon.png">
+    
+    <style type="text/css">
+        
+        
+    </style>
+    <!-- aos cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+  </head>
+<body class="body">
+    <audio loop="" id="audioPlayer" autoplay="" style="display:none"><source src="src/mp3/preloader.mp3" type="audio/mp3"></audio>
+    <div id="preloader"></div>
+    <noscript>Allow Javascript</noscript>
+     
+    <header> 
+        
+         
+        <div class="navbar" id="navbar">
+            <div class="hey">Hey!</div>
+            <div class="logo" tabindex="0" aria-label="vinod jangid logo">
+
+                <div class="logo-top">
+                    <img src="src/png/logo-headwithouteyes.png" alt="">
+                <div class="face">
+                    <div class="eye"><div class="pupil"></div></div>
+                    <div class="eye"><div class="pupil"></div></div>
+                </div>
+            </div>
+                
+                <div class="logo-bottom"><img src="src/png/logo-body.png" alt=""></div>
+                
+            </div>
+            <div class="navbar-tabs" id="navbar-tabs">
+                <ul class="navbar-tabs-ul">
+                    <a href="#home" tabindex="0" aria-label="Home menu button">
+                        <li class="home activeThistab" class="navbar-tabs-li "data-aos="fade-down" data-aos-delay="100">&#60;/Home&#62;</li></a>
+                    <a href="#about"aria-label="about menu button">
+                    <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">&#60;/AboutMe&#62;</li></a>
+                    <a href="#skills"aria-label="skills menu button">
+                    <li class="skills" class="navbar-tabs-li"data-aos="fade-down" data-aos-delay="500">&#60;/Skills&#62;</li></a>
+                    <a href="#projects"aria-label="projects menu button">
+                    <li class="projects" class="navbar-tabs-li"data-aos="fade-down" data-aos-delay="700">&#60;/Projects&#62;</li></a>
+                    
+                </ul>
+
+               
+            </div><!-- navbar tabs ends -->
+        </div>
+    </header>
+    <!-- header ends here -->
+
+    <main>
+       
+        <!-- hamburger -->
+        <div class="hamburger" id="hamburger" data-aos="fade">
+            <div class="hamburgerbase">
+            <button id="hamburger-button" onclick="hamburgerMenu()"  tabindex="0" aria-label="Menu Button">
+                <span class="burger-bar" id="burger-bar1"></span>
+                <span class="burger-bar" id="burger-bar2"></span>
+                <span class="burger-bar" id="burger-bar3"></span></button>
+            </div>
+        </div>
+        <!-- hamburger -->
+        <div class="mobiletogglemenu" id="mobiletogglemenu">
+            <div class="emptyarea" id="emptyarea"></div>
+            <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+                <a href="#home" tabindex="0" aria-label="Home menu button">
+                    <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">&#60;/Home&#62;</li></a>
+                <a href="#about" tabindex="0" aria-label="about menu button">
+                <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about"onclick="hidemenubyli()">&#60;/AboutMe&#62;</li></a>
+                <a href="#skills" tabindex="0" aria-label="skills menu button">
+                <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills"onclick="hidemenubyli()">&#60;/Skills&#62;</li></a>
+                <a href="#projects" tabindex="0" aria-label="projects menu button">
+                <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">&#60;/Projects&#62;</li></a>
+                
+            </ul>
+        </div>
+        <!-- mobile toggle menu ends -->
+        <div class="fakenavbar"></div>
+        <section class="landing-page-container" id="home">
+           
+              
+              
+              
+            <div class="text-content">
+                <article id="hello-friend"data-aos="fade-up"data-aos-delay="0"><p class="jello">N</p><p class="jello">a</p><p class="jello">m</p><p class="jello">a</p><p class="jello">s</p><p class="jello">t</p><p class="jello">e</p><p class="jello">(</p><p class="jello">)</p><p class="jello">;</p>&nbsp;<p class="jello">I</p><p class="jello">'</p><p class="jello">m</p></article>
+                <article id="name" data-aos="fade-up"data-aos-delay="200"><p class="jello">P</p><p class="jello">r</p><p class="jello">a</p><p class="jello">k</p>
+                <p class="jello">a</p>  <p class="jello">s</p>
+     <p class="jello">h</p>           
+                &nbsp;<p class="jello">C</p><p class="jello">s</p><p class="jello">o</p><p class="jello">d</p><p class="jello">i</p><p class="jello">y</p><p class="jello">a</p></article>
+
+
+                <article id="work" data-aos="fade-up"data-aos-delay="400"><div><p class="jello">I</p></div><div><p class="jello">d</p><p class="jello">e</p><p class="jello">s</p><p class="jello">i</p><p class="jello">g</p><p class="jello">n</p></div><div><p class="jello">&</p></div><div><p class="jello">c</p><p class="jello">o</p><p class="jello">d</p><p class="jello">e</p></div><div><p class="jello">f</p><p class="jello">o</p><p class="jello">r</p></div><div><p class="jello">w</p><p class="jello">e</p><p class="jello">b</p><p class="jello">.</p></div></article>
+                <p id="info-para" data-aos="fade-up"data-aos-delay="600">Web Developer with experience of Digital Concept Arts, Frontend Web Designs. I Love fun Web UI, collaboration and making products.<br> 
+                    <br> I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                <div class="contact-btn-div"data-aos="fade-up"
+                data-aos-delay="800">
+                
+                    <a href="mailto:infovinodjangid@gmail.com" tabindex="-1">
+                        <button class="letsTalkBtn">
+                            <p class="letsTalkBtn-text">Let's Talk!</p>
+                            <span class="letsTalkBtn-BG"></span>
+                          </button></a>
+                    <div class="setting-container" id="setting-container">
+                        <input type="checkbox" id="switchforsetting" onclick="settingtoggle()">
+
+                        <label for="switchforsetting" id="labelforsetting"tabindex="0" aria-label="settings for sound and appearance"></label>
+
+                      <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+                        <input type="checkbox" id="switchforvisualmode"
+                        onclick="visualmode()">
+                        <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0" aria-label="switch appearance"></label>
+                      </div>
+
+                    <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+                        <input type="checkbox" id="switchforsound" onclick="playpause()">
+                        <label for="switchforsound" id="labelforsound"tabindex="0" aria-label="switch sound"></label>
+                      </div> 
+                      </div><!-- setting div ends -->
+                   </div><!-- contact-btn-div -->
+                   
+            </div>
+            <!-- Resume button -->
+      <button class="resume-btn" id="resume-btn">
+  
+        <div class="sign"><svg viewBox="0 0 640 512"><path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"/></svg></div>
+        
+        <div class="text">Resume</div>
+      </button>
+        </section>
+        <!-- landing page ends here -->
+        <section class="about-section-container" id="about" data-aos="fade-up">
+            <div class="about-section">
+                <div class="about-heading"><article class="about-heading-article" tabindex="0"aria-label="About me heading">&#60;/AboutMe&#62;</article><p class="aboutHeadingP"></p></div>
+                
+                <div class="info-dp-section">
+                    <div class="about-info">
+                        <p tabindex="0">Hi! My name is PRAKASH i'm a Web Developer and Digital Visual Artist, I love creating things that exists on the internet. My interest in web development started in 2021 when i thought to upload my Digital Concept Arts Online.</p> <br>
+                        <p tabindex="0">Instead of making a online Concepts Art website, i started enjoying web development. Creating custom things for web taught me a lot about design & development! </p> <br>
+                           <p tabindex="0"> My main focus these days is building interesting & creative web designs, I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+
+                    </div>
+<!-----
+                    <div class="dp" data-aos="fade-up"><img src="src/webp/vinod (2).webp" alt=""tabindex="0" aria-label="image of vinod"></div>
+                </div>
+            </div>.   --->
+        </section>
+        <!-- about section ends  -->
+        
+        <section class="skills-section-container" id="skills">
+            <div class="skills-section">
+                <div class="skills-heading" data-aos="fade-up"><article class="skills-heading-article"tabindex="0"aria-label="skills heading">&#60;/Skills&#62;</article><p class="skillsHeadingP"></p></div>
+                
+                <div class="frontend-dev-section">
+
+                    <div class="frontend-dev-heading" data-aos="fade-up"tabindex="0"aria-label="As a frontend a developer these are the skills i have">Frontend Developer</div>
+                    <div class="language-speak"><article tabindex="0"aria-label="languages i speak below">>_ Languages i speak:</article></div>
+                    <div class="languages-section">
+
+                        <div class="language-name"data-aos="fade-up" id="html"><article tabindex="0"aria-label="HTML">H T M L</article>
+                        <p>INTERMEDIATE!</p></div>
+                        
+                        <div class="language-name"data-aos="fade-up" id="css"><article tabindex="0"aria-label="C S S">CSS</article>
+                            <p>ADVANCED!</p></div>
+
+                            <div class="language-name"data-aos="fade-up"id="bootstrap"><article tabindex="0"aria-label="bootstrap">BOOTSTRAP</article>
+                                <p>INTERMEDIATE!</p></div>
+                                <div class="language-name"data-aos="fade-up"id="react"><article tabindex="0"aria-label="React J S">REACT JS</article>
+                                    <p>BEGINNER!</p></div>
+                                <div class="language-name"data-aos="fade-up"id="js"><article tabindex="0"aria-label="Javascript">JAVASCRIPT</article>
+                                    <p>INTERMEDIATE!</p></div>
+                                    
+
+                    </div>
+
+                </div>
+                <div class="designing-section frontend-dev-section">
+
+                    <div class="designing-heading frontend-dev-heading" data-aos="fade-up"tabindex="0"aria-label="as a designer these are the skills i have">Designer</div>
+                    <div class="enjoy-designing language-speak" data-aos="fade-up"><article>Things i enjoy Designing:</article></div>
+                    <div class="tool-section languages-section">
+
+                        <div class="tool-name language-name" data-aos="fade-up"id="ap"><article tabindex="0"aria-label="Adobe Photoshop">ADOBE PHOTOSHOP</article>
+                        <p>ADVANCED!</p></div>
+                            <div class="tool-name language-name" data-aos="fade-up"id="canva"><article tabindex="0"aria-label="canva">CANVA</article>
+                                <p>INTERMEDIATE!</p></div>
+                                <div class="tool-name language-name" data-aos="fade-up"id="ai"><article tabindex="0"aria-label="Adobe illustrator">ADOBE AI</article>
+                                    <p>BEGINNER!</p></div>
+                                    <div class="tool-name language-name" data-aos="fade-up"id="ai"><article tabindex="0"aria-label="Figma">FIGMA</article>
+                                        <p>INTERMEDIATE!</p></div>
+                               
+                                    
+
+                    </div>
+
+                </div>
+                <div class="other-languages frontend-dev-section">
+
+                    <div class="languages-heading frontend-dev-heading" data-aos="fade-up"tabindex="0"aria-label="as a programmer skills i have">Programmer</div>
+                    <div class="languages-i-know language-speak" data-aos="fade-up"><article>>_ Other Languages i Know:</article></div>
+                    <div class="programming-section languages-section">
+
+                        <div class="language-name language-name" data-aos="fade-up" id="c"><article tabindex="0"aria-label="C a programming language">C</article>
+                        <p>INTERMEDIATE!</p></div>
+                        <div class="language-name language-name" data-aos="fade-up"id="cpp"><article tabindex="0"aria-label="C plus plus a programming language">C++</article>
+                            <p>BEGINNER!</p></div>  
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- skills section ends -->
+        <section class="projects-section-container" id="projects">
+            <div class="projects-section-div">
+                <div class="projects-heading"><article class="projects-heading-article" tabindex="0"aria-label="My projects starts from here">&#60;/Projects&#62;</article><p class="projectsHeadingP"></p></div>
+                <div class="project-boxes-div">
+
+                    <a href="https://axocean.github.io/AXOCEAN/" target="_blank"><div class="project-box project-box1" id="project-box1">
+                    <div class="info-div">
+                        <img src="src/webp/axocean-favicon.webp" alt="" class="faviconforProject">
+                        <article class="ProjectHeading">AXOCEAN</article>
+                        <p class="ProjectDescription">E-commerce website frontend work to choose people their favorite design of product and redirect to flipkart shopping site.</p>
+                        <button class="cta">
+                            <span>See the Live Site</span>
+                            <svg viewBox="0 0 13 10" height="10px" width="15px">
+                              <path d="M1,5 L11,5"></path>
+                              <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                          </button>
+                    </div>
+                    <div class="image-div"><img src="src/webp/AXOCEAN-project.webp" alt=""></div>
+                </div></a>
+<!-- ---------------------- -->
+                <a href="https://aquaregiafest.com" target="_blank"><div class="project-box project-box2" id="project-box2">
+                    <div class="info-div">
+                        <img src="src/svg/aquaregia-favicon.svg" alt="" class="faviconforProjectAquaregia">
+                        <article class="ProjectHeading">Aquaregia</article>
+                        <p class="ProjectDescription">A website for University Maharaja College fest "Aquaregia" for event registerations.</p>
+                        <button class="cta">
+                            <span>See the Live Site</span>
+                            <svg viewBox="0 0 13 10" height="10px" width="15px">
+                              <path d="M1,5 L11,5"></path>
+                              <polyline points="8 1 12 5 8 9"></polyline>
+                            </svg>
+                          </button>
+                    </div>
+                    <div class="image-div"><img src="src/webp/Aquaregia-project.webp" alt=""></div>
+            </div></a>
+
+            <!-- ---------------------- -->
+            <a href="https://react-netflix-clone20.netlify.app/" target="_blank"><div class="project-box project-box3" id="project-box3">
+                <div class="info-div">
+                    <img src="src/ico/netflixfavicon.ico" alt="" class="faviconforProject">
+                    <article class="ProjectHeading">React Netflix Clone</article>
+                    <p class="ProjectDescription">A webpage to categorize the shows to redirect user to watch the show.</p>
+                    <button class="cta">
+                        <span>See the Live Site</span>
+                        <svg viewBox="0 0 13 10" height="10px" width="15px">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                </div>
+                <div class="image-div"><img src="src/webp/NetflixCloneProject.webp" alt=""></div>
+        </div></a>
+
+        <!-- ---------------------- -->
+        <a href="https://vinodjangid07.github.io/QR-Generator/" target="_blank"><div class="project-box project-box4" id="project-box4">
+            <div class="info-div">
+                <img src="src/png/qrcodefavicon.png" alt="" class="faviconforProjectAquaregia">
+                <article class="ProjectHeading">QR Generator</article>
+                <p class="ProjectDescription">A webpage to make a QR Code from text using API.</p>
+                <button class="cta">
+                    <span>See the Live Site</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </button>
+            </div>
+            <div class="image-div"><img src="src/webp/QRgeneratorProject.webp" alt=""></div>
+    </div></a>
+
+     <!-- ---------------------- -->
+     <a href="https://vinodjangid07.github.io/Food-Menu/" target="_blank"><div class="project-box project-box5" id="project-box5">
+        <div class="info-div">
+            <img src="src/ico/foodmenufavicon.ico" alt="" class="faviconforProjectAquaregia">
+            <article class="ProjectHeading">Bhukkad A Food Company</article>
+            <p class="ProjectDescription">React based UI of a fast food company webpage.</p>
+            <button class="cta">
+                <span>See the Live Site</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button>
+        </div>
+        <div class="image-div"><img src="src/webp/FoodMenuProject.webp" alt=""></div>
+</div></a>
+        
+        </div>
+        </div>
+        </section>
+        
+    </main>
+    <!-- main ends here -->
+
+    <footer>
+        
+        <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()"><article aria-label="Back to top">&#8592;BACK TO TOP</article></button>
+        <div class="footercontainer">
+            <div class="two-words"><article tabindex="0"aria-label="Learning, Living, and Leveling Up, my quote">"Learning, Living, and Leveling Up."</article></div>
+            <div class="social-media-container">
+                <div class="getintouch-heading"><article>GetinTouch();</article></div>
+                <div class="logos">
+            <a href="https://instagram.com/its_.me._vinod?igshid=YmMyMTA2MsY=" target="_blank"tabindex="0"aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+
+
+            <a href="https://www.linkedin.com/in/vinod-jangid-b401111a1?original_referer="target="_blank"aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a>
+
+
+            <a href="https://github.com/vinodjangid07"target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"class="SocialHandle"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+
+
+            <a href="mailto:infovinodjangid@gmail.com" target="_blank"aria-label="My G mail"><svg id="GmailLogo" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg></a>
+        </div>
+            </div>
+            <div class="footer-bottom">
+                <article>Design & Built by Prakash Csodiya<i class="far fa-copyright"></i> twentytwentythree</article>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer ends here -->
+    
+</body>
+
+<script src="main.js"></script> 
+<!-- for aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+<script>
+    //  
+// ██╗░░░██╗██╗███╗░░██╗░█████╗░██████╗░
+// ██║░░░██║██║████╗░██║██╔══██╗██╔══██╗
+// ╚██╗░██╔╝██║██╔██╗██║██║░░██║██║░░██║
+// ░╚████╔╝░██║██║╚████║██║░░██║██║░░██║
+// ░░╚██╔╝░░██║██║░╚███║╚█████╔╝██████╔╝
+// ░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚═════╝░
+// ░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
+// ░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
+// ░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
+// ██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
+// ╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
+// ░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░
+
+// preloader script............
+var audio = document.getElementById("audioPlayer");
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  loader.style.display = "none";
+  document.querySelector('.hey').classList.add('popup');
+})
+
+// preloader script ends here.........
+
+// switch for setting
+function settingtoggle(){
+  document.getElementById("setting-container").classList.toggle('settingactivate');
+  document.getElementById("visualmodetogglebuttoncontainer").classList.toggle('visualmodeshow');
+  document.getElementById("soundtogglebuttoncontainer").classList.toggle('soundmodeshow');
+}
+function playpause() {
+  if (document.getElementById('switchforsound').checked == false) {
+    audio.pause();
+   }
+
+ else{
+     audio.play();
+ }
+  }
+
+  function visualmode(){
+    document.body.classList.toggle('light-mode');
+    document.getElementById('labelforsound').classList.toggle('invertsoundlabel');
+    document.querySelector('.about-heading-article').classList.toggle('heading-article-light');
+    document.querySelector('.aboutHeadingP').classList.toggle('heading-article-light');
+
+    document.querySelector('.skills-heading-article').classList.toggle('heading-article-light');
+    document.querySelector('.skillsHeadingP').classList.toggle('heading-article-light');
+
+    document.querySelector('.projects-heading-article').classList.toggle('heading-article-light');
+    document.querySelector('.projectsHeadingP').classList.toggle('heading-article-light');
+   
+    document.querySelector('.frontend-dev-heading').classList.toggle('heading-article-light');
+    document.querySelector('.designing-heading').classList.toggle('heading-article-light');
+    document.querySelector('.languages-heading').classList.toggle('heading-article-light');
+
+    document.getElementById('html').classList.toggle('language-gradient-class');
+    document.getElementById('css').classList.toggle('language-gradient-class');
+    document.getElementById('bootstrap').classList.toggle('language-gradient-class');
+    document.getElementById('react').classList.toggle('language-gradient-class');
+    document.getElementById('js').classList.toggle('language-gradient-class');
+    document.getElementById('ap').classList.toggle('language-gradient-class');
+    document.getElementById('canva').classList.toggle('language-gradient-class');
+    document.getElementById('ai').classList.toggle('language-gradient-class');
+    document.getElementById('c').classList.toggle('language-gradient-class');
+    document.getElementById('cpp').classList.toggle('language-gradient-class');
+    // document.getElementById('project-box1').classList.toggle('language-gradient-class');
+    // document.getElementById('project-box2').classList.toggle('language-gradient-class');
+    let projectBox = document.querySelectorAll('.project-box');
+    projectBox.forEach(Box => {
+        Box.classList.toggle('language-gradient-class');
+    })
+
+  }
+let emptyArea = document.getElementById("emptyarea");
+ let mobileTogglemenu = document.getElementById("mobiletogglemenu");
+// toggle menu by clicking on hamburger
+function hamburgerMenu() {
+    document.body.classList.toggle("stopscrolling");
+ document.getElementById("mobiletogglemenu").classList.toggle("show-toggle-menu");
+ document.getElementById("emptyarea").classList.toggle("blur-class");
+document.getElementById("burger-bar1").classList.toggle("hamburger-animation1");
+document.getElementById("burger-bar2").classList.toggle("hamburger-animation2");
+document.getElementById("burger-bar3").classList.toggle("hamburger-animation3");
+}
+// close mobile toggle menu by clicking on LI
+function hidemenubyli(){
+document.body.classList.toggle("stopscrolling");
+document.getElementById("mobiletogglemenu").classList.remove("show-toggle-menu");
+document.getElementById("emptyarea").classList.remove("blur-class");
+document.getElementById("burger-bar1").classList.remove("hamburger-animation1");
+document.getElementById("burger-bar2").classList.remove("hamburger-animation2");
+document.getElementById("burger-bar3").classList.remove("hamburger-animation3");
+}
+
+// close Mobile hamburger toggle menu while clicking in empty area
+emptyArea.addEventListener('click',hidetogglemenu);
+function hidetogglemenu(){
+document.body.classList.remove("stopscrolling");
+document.getElementById("mobiletogglemenu").classList.remove("show-toggle-menu");
+document.getElementById("emptyarea").classList.remove("blur-class");
+document.getElementById("burger-bar1").classList.remove("hamburger-animation1");
+document.getElementById("burger-bar2").classList.remove("hamburger-animation2");
+document.getElementById("burger-bar3").classList.remove("hamburger-animation3");
+}
+
+const sections = document.querySelectorAll('section');
+const navLi = document.querySelectorAll('.navbar .navbar-tabs .navbar-tabs-ul a li');
+const mobilenavLi = document.querySelectorAll('.mobiletogglemenu .mobile-navbar-tabs-ul a li');
+
+window.addEventListener('scroll', ()=>{
+  let current = "";
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if(pageYOffset >= (sectionTop - 500)){
+      current = section.getAttribute('id');
+    }
+  })
+
+  mobilenavLi.forEach( li => {
+    li.classList.remove('activeThismobiletab');
+    if(li.classList.contains(current)){
+      li.classList.add('activeThismobiletab')
+    }
+  })
+navLi.forEach( li => {
+  li.classList.remove('activeThistab');
+  if(li.classList.contains(current)){
+    li.classList.add('activeThistab')
+  }
+})
+})
+console.log('%c Designed and Developed by Vinod Jangid ', 'background-image: linear-gradient(90deg,#8000ff,#6bc5f8); color: white;font-weight:900;font-size:1rem; padding:20px;');
+
+
+
+let mybutton = document.getElementById("backtotopbutton");
+window.onscroll = function(){
+  scrollFunction()
+};
+
+function scrollFunction(){
+  if(document.body.scrollTop > 400 || document.documentElement.scrollTop > 400)
+  {
+    mybutton.style.display = "block";
+  }
+   else{
+      mybutton.style.display = "none";
+     
+      }
+}
+
+function scrolltoTopfunction(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+// document.addEventListener("contextmenu", function (e){
+//   e.preventDefault();
+// }, false);
+
+document.addEventListener("contextmenu", function(e){
+  if (e.target.nodeName === "IMG") {
+      e.preventDefault();
+  }
+}, false);
+
+
+
+
+
+let pupils = document.getElementsByClassName('pupil');
+let pupilsArr = Array.from(pupils);
+// console.log(pupils);
+
+let pupilStartPoint = -1;
+let pupilRange = 3;
+
+// mouse X 
+let mouseXStartPoint = 0;
+let mouseXEndPoint = window.innerWidth;
+let currentXPosition = 0;
+let fracXValue = 0;
+
+
+// mouse Y position 
+let mouseYEndPoint = window.innerHeight;
+let currentYPosition = 0;
+let fracYValue = 0;
+
+let mouseXRange = mouseXEndPoint - mouseXStartPoint;
+
+const mouseMove = (event) => {
+    currentXPosition = event.clientX - mouseXStartPoint;
+    fracXValue = currentXPosition / mouseXRange;
+
+    currentYPosition = event.clientY;
+    fracYValue = currentYPosition / mouseYEndPoint;
+    
+    let pupilXCurrrentPosition = pupilStartPoint + (fracXValue * pupilRange);
+    let pupilYCurrrentPosition = pupilStartPoint + (fracYValue * pupilRange);
+
+    pupilsArr.forEach((curPupil) => {
+        curPupil.style.transform= `translate(${pupilXCurrrentPosition}px, ${pupilYCurrrentPosition}px)`;
+    })
+
+}
+
+const windowResize = (event) => {
+    mouseXEndPoint = window.innerWidth;
+    mouseYEndPoint = window.innerHeight;
+    mouseXRange = mouseXEndPoint - mouseXStartPoint;
+}
+
+
+window.addEventListener('mousemove', mouseMove);
+window.addEventListener('resize', windowResize);
+
+</script>
+<script>
+
+  document.getElementById("resume-btn").addEventListener("click", function () {
+    var fileUrl = "src/pdf/Vinod Jangid Resume.pdf";
+    saveAs(fileUrl, "Resume.pdf");
+  });
+</script>
+
+</html>
